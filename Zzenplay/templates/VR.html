@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<body>
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}" />
+  
+    <!-- fonts style -->
+    <link href="{% static 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap' %}" rel="stylesheet">
+    <!--owl slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' %}" />
+    <!-- nice select -->
+    <link rel="stylesheet" href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css' %}" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+    <!-- font awesome style -->
+    <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet" />
+  
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="{% static 'css/responsive.css' %}" rel="stylesheet" />
+  
+  <section class="about_section">
+    
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5 offset-md-1">
+            <div class="detail-box pr-md-2">
+              <div class="heading_container">
+                <h2>About Us</h2>
+              </div>
+              <p class="detail_p_mt">
+                At zenplaygamingke, we are passionate about bringing your entertainment dreams to life. We specialize in offering a wide range of premium services that cater to every facet of your gaming and entertainment needs. From the latest PS4 and PS5 games to cutting-edge VR experiences, we ensure you have access to the most exciting and immersive content available.
+                
+              </p>
+              <p class="detail_p_mt">
+                Our curated selection of PlayStation games and movies promises unmatched thrills and enjoyment. For gamers, we offer essential accessories and advanced racing simulators to enhance your experience and take your gameplay to the next level. With a commitment to excellence and innovation, we strive to provide products and experiences that elevate your entertainment journey.
+              </p>
+              <p class="detail_p_mt">
+                Discover the future of gaming and entertainment with us. Whether you're exploring new realms in virtual reality or mastering strategy with card games, zenplaygamingke is here to offer top-notch quality and unbeatable service. Join us in redefining the way you play and enjoy your favorite pastimes.
+              </p>
+  
+              <a href="about.html" class="btn btn-primary">
+                Learn More
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 px-0">
+            <div class="aspect-ratio-container">
+              <video class="box_video" autoplay muted loop playsinline>
+                <source src="{% static 'images/genz.mp4' %}" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- jQery -->
+    <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+    <!-- popper js -->
+    <script src="{% static 'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' %}" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <!-- owl slider -->
+    <script src="{% static 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js' %}"></script>
+    <!-- nice select -->
+    <script src="{% static 'https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js' %}" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src="{% static 'js/custom.js' %}"></script>
+    <!-- Google Map -->
+    <script src="{% static 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap' %}"></script>
+    <!-- End Google Map -->
+  
+  </body>
+</html>
